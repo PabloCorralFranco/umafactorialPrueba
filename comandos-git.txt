@@ -1,0 +1,19 @@
+git config --global http.proxy http://proxy.wifi.uma.es:3128 "Configuramos la red proxy" item 1
+git clone https://github.com/PabloCorralFranco/umafactorial.git "Cargamos el repositorio" item 2
+git config user.name PabloCorralFranco "Nos logeamos con nombre y correo" item 3
+git config user.email pablocorralfranco@gmail.com item 4
+touch factorial.java "Con esto creamos el fichero" item 5
+git add factorial.java "La cargamos en el stage" item 6
+git commit -m "Comentario" "Con esto lo cargamos en el repositorio global" item 7
+git push origin master "Con el push cargamos el repositorio en el sevidor origen" item 9
+git checkout -b rama "Podemos crear una nueva rama y saltar directamente a ella
+, en el caso de no querer saltar y solo crear quitamos el -b"
+git stash "Guardamos un programa temporalmente sin que afecta a la version actual item 18
+a la cual se le ha hecho commit"
+git stash pop "Sacamos del stash el programa y lo volvemos a cargar para item 20
+trabajar con el"
+git merge ramaamergear "Podemos hacer merge con desde la rama en la que estamos
+a la rama que llamamos" item 15
+
+
+
